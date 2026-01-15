@@ -1,0 +1,17 @@
+{
+  "name": "legacy-color-app",
+  "version": "1.0.0",
+  "description": "Legacy Node.js app with Express and EJS",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3.21.2",
+    "ejs": "1.0.0",
+    "body-parser": "1.15.2"
+  },
+  "engines": {
+    "node": "0.12.x"
+  }
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Legacy Color App - About</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 600px;
+      margin: 50px auto;
+      padding: 20px;
+    }
+    .nav {
+      margin-bottom: 30px;
+      padding: 10px;
+      background: #f0f0f0;
+    }
+    .nav a {
+      margin-right: 15px;
+      text-decoration: none;
+      color: #333;
+    }
+    .info-box {
+      background: #f8f9fa;
+      padding: 20px;
+      border-radius: 8px;
+      margin-top: 20px;
+    }
+    .version {
+      font-family: monospace;
+      background: #e9ecef;
+      padding: 2px 6px;
+      border-radius: 3px;
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="/">Home</a>
+    <a href="/playground">Playground</a>
+    <a href="/about">About</a>
+  </div>
+  
+  <h1>About Legacy Color App</h1>
+  
+  <div class="info-box">
+    <h3>Application Details</h3>
+    <p><strong>Description:</strong> A simple color playground application built with legacy Node.js technologies.</p>
+    <p><strong>Node.js Version:</strong> <span class="version"><%= nodeVersion %></span></p>
+    <p><strong>Express Version:</strong> <span class="version"><%= expressVersion %></span></p>
+    
+    <h3>Features</h3>
+    <ul>
+      <li>Interactive color picker</li>
+      <li>Persistent color selection across page reloads</li>
+      <li>Built with Express 3.x and EJS templating</li>
+      <li>In-memory state management</li>
+    </ul>
+  </div>
+</body>
+</html>
